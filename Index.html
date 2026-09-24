@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Start Screen -->
+    <div id="startScreen">
+        <h1>🛡️ Phishing Quiz</h1>
+        <p>Test your phishing awareness!</p>
+        <button id="startQuiz">🚀 Start Quiz</button>
+    </div>
+
+    <!-- Quiz -->
+    <div id="quiz">
+
+        <p id="score">Score: 0</p>
+      <p id="progress">Question 1 / 5</p>
+<div id="progressBar">
+    <div id="progressFill"></div>
+</div>
+      <p id="feedback"></p>
+
+        <!-- Question 1 -->
+        <div id="question1">
+            <h2>Question 1</h2>
+            <p>Which one looks like a phishing message?</p>
+
+            <button id="optionA">
+                A) 🎁 You won a free iPhone! Click here now!
+            </button>
+
+            <button id="optionB">
+                B) 🏫 Your college timetable has been updated. Check the official portal.
+            </button>
+        </div>
+
+        <!-- Question 2 -->
+        <div id="question2">
+            <h2>Question 2</h2>
+            <p>You receive an email asking for your password and OTP. What should you do?</p>
+
+            <button id="q2A">A) Share the details</button>
+            <button id="q2B">B) Ignore it and verify through the official website</button>
+        </div>
+
+        <!-- Question 3 -->
+        <div id="question3">
+            <h2>Question 3</h2>
+            <p>Which is a common sign of a phishing email?</p>
+
+            <button id="q3A">A) Urgent request to click a suspicious link</button>
+            <button id="q3B">B) Normal message from a known contact</button>
+        </div>
+
+        <!-- Question 4 -->
+        <div id="question4">
+            <h2>Question 4</h2>
+            <p>Which URL is more suspicious?</p>
+
+            <button id="q4A">A) https://www.google.com</button>
+            <button id="q4B">B) https://google-login-security.example.com</button>
+        </div>
+
+        <!-- Question 5 -->
+        <div id="question5">
+            <h2>Question 5</h2>
+            <p>What should you do before clicking a suspicious link?</p>
+
+            <button id="q5A">A) Click it quickly</button>
+            <button id="q5B">B) Check the link and verify the sender</button>
+        </div>
+
+    </div>
+
+    <!-- Result -->
+    <div id="result">
+        <h2>🎉 Quiz Completed!</h2>
+        <p id="finalScore"></p>
+        <p id="message"></p>
+        <button id="restart">🔄 Restart Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
